@@ -1,0 +1,68 @@
+InsertionSort:
+
+InsertionSort - 20000: 0.28 segundos
+InsertionSort - 40000: 1.12 segundos
+InsertionSort - 60000: 2.58 segundos
+InsertionSort - 80000: 4.57 segundos
+InsertionSort - 100000: 7.04 segundos
+InsertionSort - 120000: 10.25 segundos
+InsertionSort - 140000: 14.76 segundos
+InsertionSort - 160000: 21.13 segundos
+InsertionSort - 180000: 26.93 segundos
+InsertionSort - 200000: 33.83 segundos
+InsertionSort - 220000: 41.55 segundos
+InsertionSort - 240000: 51.23 segundos
+InsertionSort - 260000: 61.82 segundos
+InsertionSort - 280000: 70.96 segundos
+InsertionSort - 300000: 79.04 segundos
+InsertionSort - 320000: 85.43 segundos
+InsertionSort - 340000: 103.87 segundos
+InsertionSort - 360000: 109.10 segundos
+InsertionSort - 380000: 101.16 segundos
+InsertionSort - 400000: 108.78 segundos
+
+MergeSort:
+
+mergeSort - 20000: 0.01 segundos
+mergeSort - 40000: 0.01 segundos
+mergeSort - 60000: 0.02 segundos
+mergeSort - 80000: 0.03 segundos
+mergeSort - 100000: 0.03 segundos
+mergeSort - 120000: 0.03 segundos
+mergeSort - 140000: 0.04 segundos
+mergeSort - 160000: 0.05 segundos
+mergeSort - 180000: 0.05 segundos
+mergeSort - 200000: 0.06 segundos
+mergeSort - 220000: 0.07 segundos
+mergeSort - 240000: 0.07 segundos
+mergeSort - 260000: 0.08 segundos
+mergeSort - 280000: 0.08 segundos
+mergeSort - 300000: 0.09 segundos
+mergeSort - 320000: 0.09 segundos
+mergeSort - 340000: 0.10 segundos
+mergeSort - 360000: 0.11 segundos
+mergeSort - 380000: 0.11 segundos
+mergeSort - 400000: 0.12 segundos
+
+QuickSort:
+
+quickSort - 20000: 0.00 segundos
+quickSort - 40000: 0.00 segundos
+quickSort - 60000: 0.01 segundos
+quickSort - 80000: 0.01 segundos
+quickSort - 100000: 0.02 segundos
+quickSort - 120000: 0.02 segundos
+quickSort - 140000: 0.02 segundos
+quickSort - 160000: 0.03 segundos
+quickSort - 180000: 0.03 segundos
+quickSort - 200000: 0.03 segundos
+quickSort - 220000: 0.04 segundos
+quickSort - 240000: 0.04 segundos
+quickSort - 260000: 0.04 segundos
+quickSort - 280000: 0.05 segundos
+quickSort - 300000: 0.05 segundos
+quickSort - 320000: 0.05 segundos
+quickSort - 340000: 0.06 segundos
+quickSort - 360000: 0.06 segundos
+quickSort - 380000: 0.06 segundos
+quickSort - 400000: 0.07 segundos
