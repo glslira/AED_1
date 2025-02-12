@@ -10,6 +10,16 @@ void escreveSudoku(int sudoku[9][9]){
     }//for externo
 }//escreveSudoku
 
+//função que testa se os numeros estão entre 1 e 9
+int testaNumero(int numero){
+
+    if(numero <= 0 || numero > 9){
+        return 1;
+    }//if
+    
+return 0;
+}//testaNumero
+
 //função que verifica se as linhas obedecem a regra do sudoku
 int verificaLinha(int sudoku[9][9], int linha){
     int verifica[10] = {0}; //vetor utilizado para verificar se o numero já apareceu anteriormente na linha
@@ -32,7 +42,7 @@ int verificaColuna(int sudoku[9][9], int coluna){
 
     //se o numero nao estiver entre 1 e 9 ou ele já apareceu anteriormete na coluna, não é sudoku
     for(int i = 0; i < 9; i++){
-        int numeroAtual = sudoku[coluna][i];
+        int numeroAtual = sudoku[i][coluna];
         if(testaNumero(numeroAtual) == 1 || verifica[numeroAtual] != 0){
             return 1;
         }//if
@@ -82,16 +92,6 @@ int verificaSudoku(int sudoku[9][9]){
 return 0;
 }//verificaSudoku
 
-//função que testa se os numeros estão entre 1 e 9
-int testaNumero(int numero){
-
-    if(numero <= 0 || numero >= 10){
-        return 1;
-    }//if
-
-return 0;
-}//testaNumero
-
 int main(){
     int n, sudoku[9][9];
     
@@ -103,9 +103,9 @@ int main(){
         printf("Instancia %d\n", i);
 
         if(verificaSudoku(sudoku) == 0){
-            printf("NAO\n");
+            printf("SIM\n\n");
         }else{
-            printf("SIM\n");
+            printf("NAO\n");
         }//else
     }//for
 
